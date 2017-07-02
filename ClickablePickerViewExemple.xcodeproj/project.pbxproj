@@ -12,6 +12,7 @@
 		84CE68041F09A19E00346D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CE68021F09A19E00346D87 /* Main.storyboard */; };
 		84CE68061F09A19E00346D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CE68051F09A19E00346D87 /* Assets.xcassets */; };
 		84CE68091F09A19E00346D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CE68071F09A19E00346D87 /* LaunchScreen.storyboard */; };
+		84CE68111F09A1E500346D87 /* ClickablePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE68101F09A1E500346D87 /* ClickablePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		84CE68051F09A19E00346D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84CE68081F09A19E00346D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84CE680A1F09A19E00346D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CE68101F09A1E500346D87 /* ClickablePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickablePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				84CE67FE1F09A19E00346D87 /* AppDelegate.swift */,
 				84CE68001F09A19E00346D87 /* ViewController.swift */,
 				84CE68021F09A19E00346D87 /* Main.storyboard */,
+				84CE68101F09A1E500346D87 /* ClickablePickerView.swift */,
 				84CE68051F09A19E00346D87 /* Assets.xcassets */,
 				84CE68071F09A19E00346D87 /* LaunchScreen.storyboard */,
 				84CE680A1F09A19E00346D87 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CE68111F09A1E500346D87 /* ClickablePickerView.swift in Sources */,
 				84CE68011F09A19E00346D87 /* ViewController.swift in Sources */,
 				84CE67FF1F09A19E00346D87 /* AppDelegate.swift in Sources */,
 			);
