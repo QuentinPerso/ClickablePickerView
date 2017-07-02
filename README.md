@@ -16,9 +16,14 @@ Copy the following Swift files to your project:
 And that's it ! :)
 
 ## Usage
-I'm using closure syntax because it's more fancy! change class in your storyboard file an link it or just let clickablePickerView = ClickablePickerView(...) 
+I'm using closure syntax because it's more fancy! 
+Change class in your storyboard file an link it or just 
+
+```
+let clickablePickerView = ClickablePickerView(...) 
 clickablePickerView..didSelectAction = { [weak self] in
 
 print("did select row ", self?.clickablePickerView.selectedRow(inComponent: 0) ?? "no self? ?")
 
 }
+```
